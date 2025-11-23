@@ -144,3 +144,35 @@ int main()
 
     return 0;
 }
+
+OUTPUT:
+Example Input:
+Enter number of elements: 6
+Enter 6 values:
+50 30 70 20 40 60
+
+
+The BST formed:
+
+        50
+       /  \
+     30    70
+    / \    /
+  20  40  60
+
+
+Program Output:
+
+Level Order Traversal: 50 30 70 20 40 60
+
+ RESULT:
+The program successfully:
+Accepts user input values.
+Inserts them into a Binary Search Tree (BST).
+Stores nodes in a queue for BFS.
+Prints nodes level by level using Level Order Traversal.
+For the sample input, the traversal order is:
+50 30 70 20 40 60
+
+
+This matches the expected BFS output.
