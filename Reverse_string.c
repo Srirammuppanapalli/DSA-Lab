@@ -68,3 +68,11 @@ int main()
         printf("%c", pop());
     }
 }
+
+Output:
+Enter the size of the string to reverse:7
+Enter the string to reverse:rawhsee
+Reversed string is:eeshwar
+
+Result:The program successfully demonstrates reverse string operations using stack.
+
