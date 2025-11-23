@@ -154,3 +154,40 @@ int main()
     }
 }
 
+
+Output:
+Enter the size of stack : 5
+
+1.Push
+2.Pop
+3.Exit
+Please choose stack operation to perform : 1
+Enter the elements to push : 10
+Current stack elements are-
+>>10(Top)
+
+1.Push
+2.Pop
+3.Exit
+Please choose stack operation to perform : 1
+Enter the elements to push : 20
+Current stack elements are-
+>>10>>20(Top)
+
+1.Push
+2.Pop
+3.Exit
+Please choose stack operation to perform : 2
+Current stack elements are-
+>>10(Top)
+
+1.Push
+2.Pop
+3.Exit
+Please choose stack operation to perform : 2
+Stack is Underflow
+Current stack elements are-
+>>10(Top)
+
+Result:
+This program successfully demonstrates stack operations using an array, allowing the user to push, pop, and display stack elements.
