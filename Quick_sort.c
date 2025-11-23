@@ -92,3 +92,20 @@ int main()
 
     return 0;
 }
+
+OUTPUT:
+Input:
+Enter number of elements: 7
+Enter 7 elements:
+10 7 8 9 1 5 3
+
+Program Output:
+Sorted array (Quick Sort): 1 3 5 7 8 9 10
+
+ RESULT:
+The Quick Sort program successfully:
+Takes user input elements.
+Uses partitioning and recursion to sort the array.
+Produces the final sorted list in ascending order.
+For the sample input, the resulting sorted array is:
+1 3 5 7 8 9 10
