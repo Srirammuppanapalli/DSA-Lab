@@ -110,3 +110,33 @@ int main()
 
     return 0;
 }
+
+Output:
+--- CIRCULAR QUEUE USING LINKED LIST ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter choice: 1
+Enter value to enqueue: 4
+Element enqueued.
+
+Enter choice: 1
+Enter value to enqueue: 8
+Element enqueued.
+
+Enter choice: 3
+Circular Queue elements: 4 -> 8 -> (back to front)
+
+Enter choice: 2
+Element dequeued.
+
+Enter choice: 3
+Circular Queue elements: 8 -> (back to front)
+
+Enter choice: 4
+
+Result:
+The program successfully implements a Circular Queue using a Linked List.
+It performs enqueue, dequeue, and display efficiently, while maintaining the circular connection from rear to front.Aim:
+To implement Circular Queue operations such as enqueue, dequeue, and display using a linked list, where the last node links back to the first node.
