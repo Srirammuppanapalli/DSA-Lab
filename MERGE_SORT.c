@@ -101,3 +101,21 @@ int main()
 
     return 0;
 }
+
+OUTPUT:
+Input:
+Enter number of elements: 6
+Enter 6 elements:
+8 3 1 7 0 10
+
+Program Output:
+Sorted array (Merge Sort): 0 1 3 7 8 10
+
+RESULT:
+The Merge Sort program successfully:
+Reads input elements from the user.
+Divides the array into smaller subarrays.
+Sorts them recursively.
+Merges them back into a fully sorted array.
+For the sample input, the final sorted array is:
+0 1 3 7 8 10
