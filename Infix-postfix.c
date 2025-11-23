@@ -158,3 +158,11 @@ int main()
     printf("Postfix notation is: %s\n", postfix);
     return 0;
 }
+
+Output:
+Enter Infix expression: (A+B)^D+E/(F+A*D)+C
+postfix expression: AB+D^E F A D * + / + C +
+
+Result:
+The given infix expression is successfully converted into its equivalent postfix expression using stack operations.
+The program correctly applies the rules of operator precedence and parentheses handling, and displays the postfix form of the entered infix expression.
