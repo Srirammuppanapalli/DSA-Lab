@@ -48,3 +48,13 @@ int main() {
     return 0;
 }
 
+Output:
+Enter the size of the array : 5
+Enter the elements of the array : 5 10 15 20 25
+Enter the element to search : 15
+Element found at position 3
+
+Result:
+This program searches an element in an array using linear search and correctly displays whether the element is found or not.
+
+
