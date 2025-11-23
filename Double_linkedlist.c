@@ -272,3 +272,33 @@ int main()
     }
     return 0;
 }
+
+Output:
+--- DOUBLY LINKED LIST MENU ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete from Beginning
+4. Delete from End
+5. Display
+6. Exit
+Enter your choice: 1
+Enter value to insert: 4
+Node inserted at beginning.
+
+Enter your choice: 2
+Enter value to insert: 8
+Node inserted at end.
+
+Enter your choice: 5
+Doubly Linked List: 4 <-> 8 <-> NULL
+
+Enter your choice: 3
+Node deleted from beginning.
+
+Enter your choice: 5
+Doubly Linked List: 8 <-> NULL
+
+Enter your choice: 6
+
+Result:
+The program successfully implements all basic operations of a Doubly Linked List using an interactive menu. It demonstrates insertion, deletion, and traversal in both directions, showing the working of linked list manipulation in C.
