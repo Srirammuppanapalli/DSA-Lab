@@ -278,3 +278,41 @@ int main()
     }
     return 0;
 }
+
+Output:
+--- Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Insert at Position
+4. Delete by Value
+5. Display List
+6. Exit
+Enter your choice: 1
+Enter data to insert: 10
+Node with data 10 inserted at beginning successfully.
+
+--- Linked List Menu ---
+Enter your choice: 2
+Enter data to insert: 20
+Node with data 20 inserted at the end successfully.
+
+--- Linked List Menu ---
+Enter your choice: 3
+Enter data and position to insert: 15 2
+Node with data 15 inserted at position 2 successfully.
+
+--- Linked List Menu ---
+Enter your choice: 5
+Linked List Nodes:  |At=0x1234|10|Next=0x2345| ->  |At=0x2345|15|Next=0x3456| ->  |At=0x3456|20|Next=0x0| ->
+
+--- Linked List Menu ---
+Enter your choice: 4
+Enter value to delete: 15
+Data 15 deleted from list.
+
+--- Linked List Menu ---
+Enter your choice: 5
+Linked List Nodes:  |At=0x1234|10|Next=0x3456| ->  |At=0x3456|20|Next=0x0| ->
+
+Result:
+The program successfully performs all basic operations on a singly linked list, including insertion, deletion, and displaying the nodes.
