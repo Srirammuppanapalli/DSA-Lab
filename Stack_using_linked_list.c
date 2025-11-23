@@ -156,3 +156,31 @@ int main()
         }
     }
 }
+
+Output:
+--- STACK USING LINKED LIST ---
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter choice: 1
+Enter value to push: 15
+Element pushed.
+
+Enter choice: 1
+Enter value to push: 25
+Element pushed.
+
+Enter choice: 3
+Stack elements (top to bottom): 25 -> 15 -> NULL
+
+Enter choice: 2
+Element popped.
+
+Enter choice: 3
+Stack elements (top to bottom): 15 -> NULL
+
+Enter choice: 4
+
+Result:
+The program successfully demonstrates stack operations using a linked list. It performs push, pop, and display efficiently by inserting and deleting elements at the top of the linked list.
