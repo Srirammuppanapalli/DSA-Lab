@@ -138,3 +138,21 @@ int main()
     postorder(root);
     return 0;
 }
+Output:
+Example Input:
+Enter number of elements: 5
+Enter 5 values:
+50 30 70 20 40 6
+
+The BST after inserting values 50 30 20 40 70 looks like:
+
+        50
+       /  \
+     30    70
+    /  \
+  20   40
+
+RESULT:
+The program successfully:
+Accepts user input values.
+Inserts them into a Binary Search Tree
